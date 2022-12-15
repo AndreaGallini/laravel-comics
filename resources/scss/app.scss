@@ -1,1 +1,16 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+$backgroundHeader:#0082F9;
+$backgrooundMain:#201621;
+
+.header_top{
+    width: 100%;
+    height: 50px;
+    background-color: $backgroundHeader;
+
+}
+.header_left{
+    img{
+        width: 50px;
+    }
+}
