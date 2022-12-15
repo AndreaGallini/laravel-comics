@@ -17,3 +17,7 @@ Route::get('/', function () {
     $comics = config('comics.comics');
     return view('home', compact('comics'));
 })->name('home');
+Route::get('/contatti', function () {
+
+    return view('contacts');
+})->name('contacts');

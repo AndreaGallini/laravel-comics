@@ -37,7 +37,7 @@
                         <li>CPSC Certificates</li>
                         <li>Ratings</li>
                         <li>Shop Help</li>
-                        <li>Contact Us</li>
+                        <li> <a href="{{ route('contacts') }}">Contact Us</a> </li>
                     </ul>
                 </div>
                 <div>

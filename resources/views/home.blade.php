@@ -1,4 +1,5 @@
 @extends('Layouts.app')
+@section('title', 'DC_Home')
 
 @section('content')
     <main class="jumbo_home_background">
@@ -13,7 +14,9 @@
                     @foreach ($comics as $comic)
                         <div class="col-2">
                             <img src="{{ $comic['thumb'] }}" alt="">
+
                             <p class="card_text">{{ $comic['series'] }}</p>
+
                         </div>
                     @endforeach
                 </section>
